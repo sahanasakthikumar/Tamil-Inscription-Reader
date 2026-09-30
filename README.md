@@ -33,9 +33,18 @@ Ancient Tamil inscriptions are valuable historical records, but reading them nee
 | `TIR_4_Scratch_Sentence_Generation.ipynb` | Stage 5: T5 trained from scratch (experiment) |
 | `TIR_5_Translation_English_to_Tamil_Final.ipynb` | Stage 6: MarianMT English-to-Tamil translation |
 
-## Datasets
+## Dataset Folder
 
-Both datasets are publicly available on Kaggle.
+Training data for the NLP stages is included in the `Dataset/` folder.
+
+| File | Purpose |
+|------|---------|
+| `Sentence Keywords pair` | Keyword-sentence pairs used to fine-tune T5 (Stage 5) |
+| `English to Tamil Sentence Pairs` | Parallel sentences used to fine-tune MarianMT (Stage 6) |
+
+## Datasets on Kaggle
+
+The character and dictionary datasets are publicly available on Kaggle.
 
 - **Ancient Tamil Inscription Character Dataset**: 19,394 images across 59 classes  
   [Kaggle link](https://www.kaggle.com/datasets/sahanasakthikumar/ancient-tamil-inscription-character-dataset)
@@ -55,7 +64,7 @@ PyTorch, TensorFlow/Keras, HuggingFace Transformers, OpenCV, KeyBERT, NumPy, pan
 
 ## Authors
 
-Sahana S, Arnish R, Mitun S, Brajith V.K 
+Sahana S, Arnish R, Mitun S, Brajith V.K  
 Amrita School of Artificial Intelligence, Coimbatore, Amrita Vishwa Vidyapeetham, India
 
 ## License
